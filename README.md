@@ -16,13 +16,12 @@ The **Simple Transaction App** is a lightweight application built using Flask, f
 ## Project Structure
 
 ```
-Simple-Transaction-App/
+Sentiment-Analysis-App/
 ├── .gitignore
+├── static/
+│   └── script.js
 ├── templates/
-│   ├── edit.html
-│   ├── form.html
-│   ├── search.html
-│   └── transactions.html
+│   └── index.html
 ├── app.py
 ├── requirements.txt
 ├── LICENSE
@@ -42,7 +41,7 @@ To run this project locally, open the Terminal and follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/arthurtran04/Simple-Transaction-App.git
+    git clone https://github.com/arthurtran04/Sentiment-Analysis-App.git
     ```
 
 2. Install the required dependencies:
@@ -56,7 +55,7 @@ To run this project locally, open the Terminal and follow these steps:
 To start the Flask application, run the `cd` command to change the directory to `Simple-Transaction-App` and run the `app.py` file:
 
    ```bash
-   cd ./Simple-Transaction-App
+   cd ./Sentiment-Analysis-App
    python app.py
    ```
 This application will run locally at `http://127.0.0.1:5000`:
