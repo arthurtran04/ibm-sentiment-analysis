@@ -16,7 +16,6 @@
 
 ## Prerequirements
 
-- ![Python 3.10](https://img.shields.io/badge/Python-3.7-blue) or above: [Download here](https://python.org/download)
 - IBM Cloud IDE
 - IBM Watson NLP Library
 
@@ -59,40 +58,40 @@ To run this project on IBM Cloud IDE, open the Terminal and follow these steps:
 2. Install the required dependencies:
 
     ```bash
-    python -m venv venv
-    source ./venv/bin/activate
     pip install -r requirements.txt
     ```
 
 ## Usage
 
-To start the Flask application, run the `cd` command to change the directory to `Simple-Transaction-App` and run the `app.py` file:
+To start the Flask application, run the `cd` command to change the directory to `Sentiment-Analysis-App` and run the `app.py` file:
 
    ```bash
    cd ./Sentiment-Analysis-App
-   python app.py
+   python3.11 app.py
    ```
-This application will run locally at `http://127.0.0.1:5000`:
+In the Skills Network Toolkit, launch your application at the port `5000:
 
-<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/db277f46-ce27-4e43-b608-78608aa9876c" />
+<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/8e3a47e2-82a6-4583-9de4-71e440fce7c7" />
 
-<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/e09c9aab-d7e0-4fcc-b853-882c553ec6a1" />
+<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/c3c409cf-53c0-49d8-8219-a735dcdefb8e" />
 
-On the webpage, there are **three** features you can try like `Add Transaction`, `Edit` and `Delete`:
+When you enter a text in the textbox, the webpage will display the sentiment analysis results including **POSITIVE**, **NEGATIVE** and **NEUTRAL**,</br>
+they're attached with a score ranging from -1 to 1, representing the level of sentiment:
+- score = -1 -> NEGATIVE
+- score = 0 -> NEUTRAL
+- score = 1 -> POSITIVE
 
-1. Add:</br>
-    <img width="100rem" alt="Add" src="https://github.com/user-attachments/assets/a7ead3dc-9553-486d-9aba-e7f650c309cb" />
-2. Edit:</br>
-    <img width="100rem" alt="Edit" src="https://github.com/user-attachments/assets/8f73e472-7175-4116-bd49-3c9fef2cdbda" />
-4. Delete:</br>
-    <img width="100rem" alt="Delete" src="https://github.com/user-attachments/assets/757fa2f5-9eb4-4664-89cb-423fdccfd1f5" />
+1. POSITIVE:</br>
+    <img width="600rem" alt="POSITIVE" src="https://github.com/user-attachments/assets/65b785a4-9dd4-4f2e-8f2f-5532ce798891" />
+2. NEGATIVE:</br>
+    <img width="600rem" alt="NEGATIVE" src="https://github.com/user-attachments/assets/28ebf4d3-6bff-4bd3-9240-a7f839fc6e01" />
+4. NEUTRAL:</br>
+    <img width="600rem" alt="NEUTRAL" src="https://github.com/user-attachments/assets/7a8745af-0130-447c-83aa-334b7b8fa319" />
 
-Additionally, you can also use different routes, including `/search` and `/balance`.
+This model only works for English, so if you try to enter text in another language or an invalid text, the webpage will respond with **Invalid input! Try again.**
 
-5. Search:</br>
-    <img width="100rem" alt="Search" src="https://github.com/user-attachments/assets/b81a28c2-e35b-41c9-a547-94da554654ea" />
-6. Balance:</br>
-    <img width="100rem" alt="Balance" src="https://github.com/user-attachments/assets/16ca1e25-75cb-4169-8ca6-d644c194d9cb" />
+5. Invalid input:</br>
+    <img width="600rem" alt="INVALID INPUT" src="https://github.com/user-attachments/assets/b496ed4e-2466-438d-9a55-59122789ae21" />
 
 ## License
 
