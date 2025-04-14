@@ -1,12 +1,13 @@
-# Simple Transaction Application using Flask
+# Sentiment Analysis Application using IBM Natural Language API
 
 ## Introduction
 
-The **Simple Transaction App** is a lightweight application built using Flask, featuring a clean HTML-based interface. This project serves as a straightforward platform for managing transactions, combining 60.5% HTML for the front-end and 39.5% Python for the back-end functionality.
+
 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- Prerequirements(#prerequirements)
 - [Project Structure](#project-structure)
 - [Features](#features)
 - [Installation](#installation)
@@ -17,12 +18,16 @@ The **Simple Transaction App** is a lightweight application built using Flask, f
 
 ```
 Sentiment-Analysis-App/
+├── SentimentAnalysis/
+│   ├── __init__.py
+│   └── sentiment_analysis.py
 ├── .gitignore
 ├── static/
 │   └── script.js
 ├── templates/
 │   └── index.html
 ├── app.py
+├── test_sentiment_analysis.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
