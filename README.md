@@ -69,9 +69,11 @@ To start the Flask application, run the `cd` command to change the directory to 
    cd ./Sentiment-Analysis-App
    python3.11 app.py
    ```
-In the Skills Network Toolkit, launch your application at the port `5000:
+In the Skills Network Toolkit, launch your application at the port `5000`:
 
 <img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/8e3a47e2-82a6-4583-9de4-71e440fce7c7" />
+
+The UI:
 
 <img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/c3c409cf-53c0-49d8-8219-a735dcdefb8e" />
 
