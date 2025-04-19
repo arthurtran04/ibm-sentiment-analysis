@@ -1,4 +1,4 @@
-# Sentiment Analysis Application using BERT
+# Sentiment Analysis Application using BERT model
 
 ## Introduction
 
@@ -92,6 +92,8 @@ This model only works for English, so if you try to enter text in another langua
 
 4. Invalid input:</br>
     <img width="600rem" alt="INVALID INPUT" src="https://github.com/user-attachments/assets/b496ed4e-2466-438d-9a55-59122789ae21" />
+
+To stop the application, use `Ctrl + C` in the Terminal
 
 ## License
 
