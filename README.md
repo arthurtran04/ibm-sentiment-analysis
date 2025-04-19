@@ -40,7 +40,7 @@ Sentiment-Analysis-App/
 
 ## Features
 
-- Sentiment analysis using BERT model
+- Sentiment analysis using BERT model from IBM Watson NLP Library
 - Deploy with Flask
 - Basic routing
 - Basic HTML, JavaScript and Bootstrap
