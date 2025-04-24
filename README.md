@@ -1,4 +1,4 @@
-# Sentiment Analysis Application using BERT model
+# Sentiment Analysis Application using IBM Watson NLP Library
 
 ## Introduction
 
