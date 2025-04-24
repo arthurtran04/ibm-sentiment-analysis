@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is dedicated to creating a sentiment analysis application powered by the BERT model. Combining the strengths of Python, HTML, and JavaScript, it offers a seamless integration of natural language processing with a user-friendly interface. This project serves as a practical demonstration of modern sentiment analysis techniques in action.
+This repository is dedicated to creating a sentiment analysis application powered by the IBM Watson NLP Library. Combining the strengths of Python, HTML, and JavaScript, it offers a seamless integration of natural language processing with a user-friendly interface. This project serves as a practical demonstration of modern sentiment analysis techniques in action.
 
 ## Table of Contents
 
