@@ -22,7 +22,7 @@ This repository is dedicated to creating a sentiment analysis application powere
 ## Project Structure
 
 ```
-Sentiment-Analysis-App/
+Sentiment-Analysis/
 ├── SentimentAnalysis/
 │   ├── __init__.py
 │   └── sentiment_analysis.py
@@ -52,7 +52,7 @@ To run this project on IBM Cloud IDE, open the Terminal and follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/arthurtran04/Sentiment-Analysis-App.git
+    git clone https://github.com/arthurtran04/Sentiment-Analysis.git
     ```
 
 2. Install the required dependencies:
@@ -63,10 +63,10 @@ To run this project on IBM Cloud IDE, open the Terminal and follow these steps:
 
 ## Usage
 
-To start the Flask application, run the `cd` command to change the directory to `Sentiment-Analysis-App` and run the `app.py` file:
+To start the Flask application, run the `cd` command to change the directory to `Sentiment-Analysis` and run the `app.py` file:
 
    ```bash
-   cd ./Sentiment-Analysis-App
+   cd ./Sentiment-Analysis
    python3.11 app.py
    ```
 In the Skills Network Toolkit, launch your application at the port `5000`:
