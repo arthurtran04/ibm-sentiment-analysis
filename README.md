@@ -1,4 +1,4 @@
-# Sentiment Analysis Application using IBM Watson NLP Library
+# Sentiment Analysis
 
 ## Introduction
 
@@ -40,10 +40,7 @@ ibm-sentiment-analysis/
 
 ## Features
 
-- Sentiment Analysis Application using BERT model from IBM Watson NLP Library
-- Using Flask for back-end development
-- Basic HTML, JavaScript and Bootstrap
-- Using Pylint for code analysis
+Analyze a text entered by user as POSITIVE, NEGATIVE or NEUTRAL.
 
 ## Installation
 
